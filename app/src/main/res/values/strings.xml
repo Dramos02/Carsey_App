@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Carsey_App</string>
+    <string name="appTitle">Carsey</string>
+    <string name="modelName">Model-Name:</string>
+    <string name="engineName">Engine:</string>
+    <string name="carPrice">Price Range:</string>
+    <string name="transmissionType">Transmission Type:</string>
+    <string name="carName1">Mazda 2</string>
+    <string name="carName2">Mazda MX-5</string>
+    <string name="carName3">Dodge Viper</string>
+    <string name="carName4">Chevelle</string>
+    <string name="carName5">Venom</string>
+    <string name="carName6">296-gt3</string>
+    <string name="carName7">812-gts</string>
+    <string name="carName8">Aperta</string>
+    <string name="background1">background 1</string>
+    <string name="background2">background 2</string>
+    <string name="background3">background 3</string>
+</resources>
