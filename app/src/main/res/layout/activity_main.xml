@@ -20,11 +20,14 @@
             android:layout_height="match_parent"
             android:orientation="horizontal">
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/imgTitle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:contentDescription="Buy"
+                android:contextClickable="false"
+                android:scaleType="fitCenter"
                 app:srcCompat="@drawable/car" />
 
             <TextView

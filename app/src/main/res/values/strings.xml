@@ -16,4 +16,13 @@
     <string name="background1">background 1</string>
     <string name="background2">background 2</string>
     <string name="background3">background 3</string>
+    <string name="cartTitle">BUY WITH CARSEY</string>
+    <string name="header">Choose the car you wanted to buy [Availability: PH]</string>
+    <string name="cartBtn1">Mazda 2</string>
+    <string name="cartBtn2">Mazda MX-5</string>
+    <string name="cartBtn3">Venom</string>
+    <string name="proceedBtn">Proceed to CheckOut</string>
+    <string name="backBtn">Info Gallery</string>
+    <string name="defaultColort">Default Color</string>
+    <string name="carColorBlue">Blue Color</string>
 </resources>

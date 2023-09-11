@@ -1,9 +1,9 @@
 package com.example.carsey_app
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.example.carsey_app.databinding.ActivityMainBinding
-
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
@@ -11,6 +11,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+
+
+        //Set the button to got shopping cart
+        binding.imgTitle.setOnClickListener {
+           var intent = Intent(this,ShoppingCart::class.java)
+
+            startActivity(intent)
+            this.finish()
+        }
 
         //Set of checkButtons to change the background
         binding.bg1ChckX.setOnClickListener {
