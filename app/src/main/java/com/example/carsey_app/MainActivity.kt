@@ -29,8 +29,8 @@ class MainActivity : AppCompatActivity() {
                 binding.carseyApp.setBackgroundResource(R.drawable.bg1)
 
                 // Uncheck other checkboxes
-                binding.bg2ChckX.isChecked = false // Replace with your checkbox IDs
-                binding.bg3ChckX.isChecked = false // Replace with your checkbox IDs
+                binding.bg2ChckX.isChecked = false
+                binding.bg3ChckX.isChecked = false
             } else {
                 // Toggle the checkbox state
                 binding.bg1ChckX.isChecked = true
@@ -43,8 +43,8 @@ class MainActivity : AppCompatActivity() {
                 binding.carseyApp.setBackgroundResource(R.drawable.bg2)
 
                 // Uncheck other checkboxes
-                binding.bg1ChckX.isChecked = false // Replace with your checkbox IDs
-                binding.bg3ChckX.isChecked = false // Replace with your checkbox IDs
+                binding.bg1ChckX.isChecked = false
+                binding.bg3ChckX.isChecked = false
             } else {
                 // Toggle the checkbox state
                 binding.bg2ChckX.isChecked = true
@@ -57,8 +57,8 @@ class MainActivity : AppCompatActivity() {
                 binding.carseyApp.setBackgroundResource(R.drawable.bg3)
 
                 // Uncheck other checkboxes
-                binding.bg1ChckX.isChecked = false // Replace with your checkbox IDs
-                binding.bg2ChckX.isChecked = false // Replace with your checkbox IDs
+                binding.bg1ChckX.isChecked = false
+                binding.bg2ChckX.isChecked = false
             } else {
                 // Toggle the checkbox state
                 binding.bg3ChckX.isChecked = true
@@ -75,13 +75,13 @@ class MainActivity : AppCompatActivity() {
                 binding.priceDescTxt.setText("P 955,000")
                 binding.transTypeDescTxt.setText("Automatic T / AT")
 
-                binding.car2Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car3Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car4Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car5Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car6Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car7Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car8Btn.isChecked = false // Replace with your checkbox IDs
+                binding.car2Btn.isChecked = false
+                binding.car3Btn.isChecked = false
+                binding.car4Btn.isChecked = false
+                binding.car5Btn.isChecked = false
+                binding.car6Btn.isChecked = false
+                binding.car7Btn.isChecked = false
+                binding.car8Btn.isChecked = false
             } else {
                 binding.car1Btn.isChecked = true
             }
@@ -95,13 +95,13 @@ class MainActivity : AppCompatActivity() {
                 binding.priceDescTxt.setText("P 2,350,000")
                 binding.transTypeDescTxt.setText("AT/MT")
 
-                binding.car1Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car3Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car4Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car5Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car6Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car7Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car8Btn.isChecked = false // Replace with your checkbox IDs
+                binding.car1Btn.isChecked = false
+                binding.car3Btn.isChecked = false
+                binding.car4Btn.isChecked = false
+                binding.car5Btn.isChecked = false
+                binding.car6Btn.isChecked = false
+                binding.car7Btn.isChecked = false
+                binding.car8Btn.isChecked = false
             } else {
                 binding.car2Btn.isChecked = true
             }
@@ -115,13 +115,13 @@ class MainActivity : AppCompatActivity() {
                 binding.priceDescTxt.setText("P 8,249,055")
                 binding.transTypeDescTxt.setText("Manual T / MT")
 
-                binding.car1Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car2Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car4Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car5Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car6Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car7Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car8Btn.isChecked = false // Replace with your checkbox IDs
+                binding.car1Btn.isChecked = false
+                binding.car2Btn.isChecked = false
+                binding.car4Btn.isChecked = false
+                binding.car5Btn.isChecked = false
+                binding.car6Btn.isChecked = false
+                binding.car7Btn.isChecked = false
+                binding.car8Btn.isChecked = false
             } else {
                 binding.car3Btn.isChecked = true
             }
@@ -135,13 +135,13 @@ class MainActivity : AppCompatActivity() {
                 binding.priceDescTxt.setText("P 1,000,000")
                 binding.transTypeDescTxt.setText("AT / MT")
 
-                binding.car1Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car2Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car3Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car5Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car6Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car7Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car8Btn.isChecked = false // Replace with your checkbox IDs
+                binding.car1Btn.isChecked = false
+                binding.car2Btn.isChecked = false
+                binding.car3Btn.isChecked = false
+                binding.car5Btn.isChecked = false
+                binding.car6Btn.isChecked = false
+                binding.car7Btn.isChecked = false
+                binding.car8Btn.isChecked = false
             } else {
                 binding.car4Btn.isChecked = true
             }
@@ -155,13 +155,13 @@ class MainActivity : AppCompatActivity() {
                 binding.priceDescTxt.setText("P 79,338,000")
                 binding.transTypeDescTxt.setText("Manual T / MT")
 
-                binding.car1Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car2Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car3Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car4Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car6Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car7Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car8Btn.isChecked = false // Replace with your checkbox IDs
+                binding.car1Btn.isChecked = false
+                binding.car2Btn.isChecked = false
+                binding.car3Btn.isChecked = false
+                binding.car4Btn.isChecked = false
+                binding.car6Btn.isChecked = false
+                binding.car7Btn.isChecked = false
+                binding.car8Btn.isChecked = false
             } else {
                 binding.car5Btn.isChecked = true
             }
@@ -175,13 +175,13 @@ class MainActivity : AppCompatActivity() {
                 binding.priceDescTxt.setText("P 34,852,050")
                 binding.transTypeDescTxt.setText("Automatic T / AT")
 
-                binding.car1Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car2Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car3Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car4Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car5Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car7Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car8Btn.isChecked = false // Replace with your checkbox IDs
+                binding.car1Btn.isChecked = false
+                binding.car2Btn.isChecked = false
+                binding.car3Btn.isChecked = false
+                binding.car4Btn.isChecked = false
+                binding.car5Btn.isChecked = false
+                binding.car7Btn.isChecked = false
+                binding.car8Btn.isChecked = false
             } else {
                 binding.car6Btn.isChecked = true
             }
@@ -195,13 +195,13 @@ class MainActivity : AppCompatActivity() {
                 binding.priceDescTxt.setText("P 24,934,800")
                 binding.transTypeDescTxt.setText("Automatic T / AT")
 
-                binding.car1Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car2Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car3Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car4Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car5Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car6Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car8Btn.isChecked = false // Replace with your checkbox IDs
+                binding.car1Btn.isChecked = false
+                binding.car2Btn.isChecked = false
+                binding.car3Btn.isChecked = false
+                binding.car4Btn.isChecked = false
+                binding.car5Btn.isChecked = false
+                binding.car6Btn.isChecked = false
+                binding.car8Btn.isChecked = false
             } else {
                 binding.car7Btn.isChecked = true
             }
@@ -215,13 +215,13 @@ class MainActivity : AppCompatActivity() {
                 binding.priceDescTxt.setText("P 396,690,000")
                 binding.transTypeDescTxt.setText("Automatic T / AT")
 
-                binding.car1Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car2Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car3Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car4Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car5Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car6Btn.isChecked = false // Replace with your checkbox IDs
-                binding.car7Btn.isChecked = false // Replace with your checkbox IDs
+                binding.car1Btn.isChecked = false
+                binding.car2Btn.isChecked = false
+                binding.car3Btn.isChecked = false
+                binding.car4Btn.isChecked = false
+                binding.car5Btn.isChecked = false
+                binding.car6Btn.isChecked = false
+                binding.car7Btn.isChecked = false
             } else {
                 binding.car8Btn.isChecked = true
             }

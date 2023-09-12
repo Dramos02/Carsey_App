@@ -123,7 +123,6 @@ class ShoppingCart : AppCompatActivity() {
 
         }
 
-
         binding.proceedBtn.setOnClickListener {
             // Create an AlertDialog
             val alertDialogBuilder = AlertDialog.Builder(this)

@@ -99,10 +99,15 @@
 
             <Button
                 android:id="@+id/defColorBtn"
-                android:layout_width="176dp"
+                android:layout_width="161dp"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/heycomic"
                 android:text="@string/defaultColort" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
 
             <Button
                 android:id="@+id/blueColorBtn"
