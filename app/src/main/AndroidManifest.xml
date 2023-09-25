@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Carsey_App"
         tools:targetApi="31">
         <activity
+            android:name=".BrandDetail"
+            android:exported="false" />
+        <activity
             android:name=".recyclerBrand"
             android:exported="false" />
         <activity

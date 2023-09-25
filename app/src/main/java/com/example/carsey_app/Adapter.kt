@@ -1,5 +1,6 @@
 package com.example.carsey_app
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.Toast
@@ -27,7 +28,11 @@ class Adapter (val list:ArrayList<Info>):RecyclerView.Adapter<Adapter.MyView>() 
             val itemName = list[position].name
 
             // Display a toast when the card is clicked
-            Toast.makeText(context,"Clicked on $itemName", Toast.LENGTH_SHORT).show()
+            Toast.makeText(context,"Carsey gives you $itemName", Toast.LENGTH_SHORT).show()
+
+            val intent = Intent(context, BrandDetail::class.java)
+            intent.putExtra("brandName", itemName)
+            context.startActivity(intent)
 
         }
     }
