@@ -23,6 +23,7 @@
     <string name="cartBtn3">Venom</string>
     <string name="proceedBtn">Proceed to CheckOut</string>
     <string name="backBtn">Info Gallery</string>
+    <string name="gridViewBtn">Car Type</string>
     <string name="defaultColort">Default Color</string>
     <string name="carColorBlue">Blue Color</string>
 </resources>

@@ -30,7 +30,6 @@ class BrandDetail : AppCompatActivity() {
         binding.brandName.text = brandName
         binding.brandDescription.text = brandDescription
 
-
     }
 }
     private fun getBrandDescription(brandName: String?): String {

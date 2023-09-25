@@ -20,8 +20,15 @@ class ShoppingCart : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        binding.backBtn.setOnClickListener {
+        binding.infoBtn.setOnClickListener {
             var intent = Intent(this,recyclerBrand::class.java)
+
+            startActivity(intent)
+            this.finish()
+        }
+
+        binding.carTypeBtn.setOnClickListener {
+            var intent = Intent(this, CarTypes::class.java)
 
             startActivity(intent)
             this.finish()
