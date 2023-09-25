@@ -28,7 +28,7 @@ class Adapter (val list:ArrayList<Info>):RecyclerView.Adapter<Adapter.MyView>() 
 
             // Display a toast when the card is clicked
             Toast.makeText(context,"Clicked on $itemName", Toast.LENGTH_SHORT).show()
-            //Toast.makeText(context, "Clicked on $itemName", Toast.LENGTH_SHORT).show()
+
         }
     }
 
