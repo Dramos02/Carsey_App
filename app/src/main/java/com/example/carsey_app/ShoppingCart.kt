@@ -21,7 +21,7 @@ class ShoppingCart : AppCompatActivity() {
 
 
         binding.backBtn.setOnClickListener {
-            var intent = Intent(this,MainActivity::class.java)
+            var intent = Intent(this,recyclerBrand::class.java)
 
             startActivity(intent)
             this.finish()
