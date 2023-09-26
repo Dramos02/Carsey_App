@@ -4,6 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/cartypebg"
+    android:backgroundTint="#8000BFA5"
+    android:backgroundTintMode="src_over"
     android:orientation="vertical"
     tools:context=".CarTypes">
 
@@ -41,5 +44,15 @@
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </LinearLayout>
