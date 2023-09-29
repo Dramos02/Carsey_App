@@ -12,7 +12,7 @@ class CarTypeDetail : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
-        binding.mainMenuBtn5.setOnClickListener {
+        binding.mainMenuBtn4.setOnClickListener {
             var intent = Intent(this,CarTypes::class.java)
 
             startActivity(intent)
