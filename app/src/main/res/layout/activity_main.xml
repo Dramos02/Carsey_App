@@ -28,7 +28,7 @@
                 android:contentDescription="Buy"
                 android:contextClickable="false"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/car" />
+                app:srcCompat="@drawable/buybtn" />
 
             <TextView
                 android:id="@+id/appTitle"
