@@ -34,6 +34,13 @@ class CarTypes : AppCompatActivity() {
                 "The type of car is ${textList[position]}",
                 Toast.LENGTH_SHORT
             ).show()
+
+            val selectedCarType = textList[position]
+
+            val intent = Intent(this, CarTypeDetail::class.java)
+            intent.putExtra("carType",selectedCarType)
+            startActivity(intent)
+            this.finish()
         }
     }
     private fun fillArrays() {
