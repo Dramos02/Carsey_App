@@ -9,7 +9,6 @@
     tools:context=".CarTypeDetail">
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/carTypeDetail"
         android:layout_width="match_parent"
         android:layout_height="62dp"
         app:cardBackgroundColor="#FFFFFF">
@@ -19,29 +18,31 @@
             android:layout_height="match_parent"
             android:orientation="horizontal">
 
-                <ImageButton
+            <ImageButton
                 android:id="@+id/mainMenuBtn4"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:contentDescription="Buy"
+                android:contentDescription="carTypes"
                 android:contextClickable="false"
                 android:scaleType="fitCenter"
                 app:srcCompat="@drawable/typebtn" />
 
             <TextView
-                android:id="@+id/appTitle"
+                android:id="@+id/appTitle6"
                 android:layout_width="132dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:fontFamily="@font/ggastino"
                 android:gravity="center"
-                android:text="@string/appTitle"
-                android:textColor="#0091EA"
+                android:text="Carsey"
+                android:textColor="#FFD600"
                 android:textSize="34sp" />
+
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
+
 
     <Space
         android:layout_width="match_parent"

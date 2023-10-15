@@ -32,7 +32,7 @@
                 app:srcCompat="@drawable/backbtn" />
 
             <TextView
-                android:id="@+id/appTitle"
+                android:id="@+id/appTitle4"
                 android:layout_width="132dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
