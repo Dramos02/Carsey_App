@@ -138,13 +138,8 @@ class ShoppingCart : AppCompatActivity() {
             alertDialogBuilder.setMessage("Do you want to checkout your car?")
                 .setPositiveButton("Yes") { dialog, which ->
                     // Handle "Yes" button click
-                    val message = "Still on Beta!!"
-                    val snackbar = Snackbar.make(binding.root, message, Snackbar.LENGTH_SHORT)
-                    snackbar.setAction("Close") {
-                        snackbar.dismiss()
-                    }
-                    snackbar.show()
-
+                  val intent = Intent(this, Pricelist::class.java)
+                    startActivity(intent)
                     // Implement your checkout logic here
                 }
                 .setNegativeButton("No") { dialog, which ->

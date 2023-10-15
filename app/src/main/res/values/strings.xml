@@ -26,4 +26,7 @@
     <string name="gridViewBtn">Car Type</string>
     <string name="defaultColort">Default Color</string>
     <string name="carColorBlue">Blue Color</string>
+    <string name="searchHint">Search for Car Price...</string>
+    <string name="carNameHint">Input Car Name</string>
+    <string name="carPriceHint">Input Car Price</string>
 </resources>
