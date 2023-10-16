@@ -60,7 +60,7 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="264dp"
+        android:layout_height="229dp"
         app:cardBackgroundColor="#D9FFFFFF">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -94,9 +94,9 @@
 
             <ImageButton
                 android:id="@+id/saveBtn"
-                android:layout_width="97dp"
-                android:layout_height="74dp"
-                android:layout_marginTop="20dp"
+                android:layout_width="72dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="12dp"
                 android:contentDescription="save"
                 android:contextClickable="true"
                 android:elevation="25dp"

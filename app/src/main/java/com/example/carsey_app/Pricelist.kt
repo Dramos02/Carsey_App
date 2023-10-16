@@ -70,7 +70,7 @@ class Pricelist : AppCompatActivity() {
         val item = carItemName.toString().trim().replaceFirstChar {it.uppercase()}
         val price = priceFormat.format(carPrice.toString().toFloat()).trim()
 
-        val savedProd = "Name: $item \nPrice: PHP $price"
+        val savedProd = "Car Name: $item \nCar Price: PHP $price"
 
         priceList.add(currentListSize, savedProd)
 
