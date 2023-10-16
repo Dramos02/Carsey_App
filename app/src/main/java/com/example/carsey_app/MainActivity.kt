@@ -13,7 +13,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-
         //Set the button to got shopping cart
         binding.imgTitle.setOnClickListener {
            var intent = Intent(this,ShoppingCart::class.java)

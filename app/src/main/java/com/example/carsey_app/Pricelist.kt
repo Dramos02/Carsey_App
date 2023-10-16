@@ -2,6 +2,7 @@ package com.example.carsey_app
 
 import android.R
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.text.Editable
 import android.widget.ArrayAdapter
@@ -33,12 +34,22 @@ class Pricelist : AppCompatActivity() {
         listView = binding.listView
         searchView = binding.searchView
 
+        binding.mainMenuBtn6.setOnClickListener {
+            var intent = Intent(this, MainActivity::class.java)
+
+            startActivity(intent)
+            this.finish()
+        }
+
         binding.saveBtn.setOnClickListener {
             val carItemName = binding.carItemName.text
             val carPrice = binding.carItemPrice.text
             addTolist(carItemName,carPrice)
             currentListSize++
         }
+
+        loadPriceList()
+        updateListView()
 
         searchView.setOnQueryTextListener(object: SearchView.OnQueryTextListener{
             override fun onQueryTextSubmit(query: String?): Boolean {

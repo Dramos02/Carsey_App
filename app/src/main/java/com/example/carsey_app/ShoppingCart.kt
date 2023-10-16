@@ -130,7 +130,6 @@ class ShoppingCart : AppCompatActivity() {
 
         }
 
-
         //Check out proceed verification
         binding.proceedBtn.setOnClickListener {
             // Create an AlertDialog
