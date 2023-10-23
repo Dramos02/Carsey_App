@@ -87,7 +87,7 @@ class Pricelist : AppCompatActivity() {
         val filterList = priceList.filter { it.contains(query, true) }
 
         if(filterList.isEmpty())
-            Toast.makeText(applicationContext,"No Item Found", Toast.LENGTH_LONG).show()
+            Toast.makeText(applicationContext,"No Item Found", Toast.LENGTH_SHORT).show()
         else
             updateFilteredListView(filterList)
     }
@@ -129,7 +129,7 @@ class Pricelist : AppCompatActivity() {
     }
     private fun delDialog(position: Int) {
 
-        var posToDel = 0
+       /* var posToDel = 0
 
         for(i in 0..priceList.size){
             if (listView.getItemAtPosition(position).toString() == priceList[i]) {
@@ -151,7 +151,31 @@ class Pricelist : AppCompatActivity() {
                 dialog, _ ->
             dialog.cancel()
         }
-        alert.create().show()
+        alert.create().show()*/
+
+        var posToDel = -1 // Initialize to an invalid value
+
+        for (i in 0 until priceList.size) {
+            if (listView.getItemAtPosition(position).toString() == priceList[i]) {
+                posToDel = i
+                break
+            }
+        }
+
+        if (posToDel != -1) {
+            val alert = AlertDialog.Builder(this)
+            alert.setMessage("Would you like to delete this Car?")
+            alert.setPositiveButton("Yes") { _, _ ->
+                priceList.removeAt(posToDel)
+                currentListSize--
+                updateListView()
+                savePriceList()
+            }
+            alert.setNegativeButton("No") { dialog, _ ->
+                dialog.cancel()
+            }
+            alert.create().show()
+        }
     }
 }
 
